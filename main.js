@@ -300,7 +300,7 @@
 // var sheetID = "1j3bZ2lsOxnAL4TPYtmC8LKycEQTkwYlLQNidtPyk8U4";
 // var sheetURL = "https://spreadsheets.google.com/feeds/cells/"+sheetID+"/1/public/values?alt=json";
 var sheetID = "1jYZTx-dfuSWjAdbuQYUDeQKPdwDjC5Z81t_iLEGlsXY";
-var sheetURL = "https://docs.google.com/spreadsheets/d/"+sheetID+"/edit?usp=sharing";
+var sheetURL = "https://docs.google.com/spreadsheets/d/"+sheetID+"/edit#gid=0";
 
 // https://docs.google.com/spreadsheets/d/1xZj3FB13XPcWkuT3sBWSXaepMGciihtzY1I3JkNUSr0/edit?usp=sharing
 
