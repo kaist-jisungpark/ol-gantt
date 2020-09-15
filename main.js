@@ -301,9 +301,9 @@
 // var sheetURL = "https://spreadsheets.google.com/feeds/cells/"+sheetID+"/1/public/values?alt=json";
 var sheetID = "1jYZTx-dfuSWjAdbuQYUDeQKPdwDjC5Z81t_iLEGlsXY";
 // var sheetURL = "https://docs.google.com/spreadsheets/d/"+sheetID+"/values?alt=json";
-var sheetURL = "https://docs.google.com/spreadsheets/d/1jYZTx-dfuSWjAdbuQYUDeQKPdwDjC5Z81t_iLEGlsXY/edit#gid=0"
+var sheetURL = "https://docs.google.com/spreadsheets/d/1jYZTx-dfuSWjAdbuQYUDeQKPdwDjC5Z81t_iLEGlsXY/edit#gid=0";
 // https://docs.google.com/spreadsheets/d/1xZj3FB13XPcWkuT3sBWSXaepMGciihtzY1I3JkNUSr0/edit?usp=sharing
-
+// var csvURL = 'http://guarded-ocean-2049.herokuapp.com/https://docs.google.com/spreadsheet/pub?key=1IHocOhSxwA9XkO6rznmetSz_ATBIAPHgms4htOEd-tk&single=true&gid=0&output=csv';
   var loadData = function(){
   $.get(sheetURL).done(function(returnedData) {
     var csv = parseDriveData(returnedData);
